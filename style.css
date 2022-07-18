@@ -1,0 +1,264 @@
+body{
+    background-color: #A8B3B5;
+ }
+.hello {
+    color: #16282B;
+    font-family: Roboto, sans-serif;
+    margin-left: 50px;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+ }
+
+.imgLondon {
+    margin-right: 50px;   
+    border-radius: 10px;
+    box-shadow: 0 15px 30px 1px grey;
+} 
+
+.header {
+    display: flex;
+    width: 95%;
+    margin-top: 200px;
+    margin-left: auto;
+    align-items: center;
+}  
+
+nav {
+    background-color: #16282B;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    
+} 
+
+.aboutMe {
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 200px;
+    margin-left: 200px;
+    /* justify-content: center; */
+    align-items: center;
+   text-align: center;
+    border-radius: 10px;
+    background-color: #264348;
+    box-shadow: 0 15px 30px 1px grey;
+}
+p {
+    font-size: 25px;
+    color: #7C8E91;
+}
+.profilePic {
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.portfolio-content {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.folio-item  {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    /* width: 30%; */
+    width: fit-content;
+  
+}
+
+.folio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.folio-image {
+    position: relative;
+    width: 100%;
+    box-shadow: 0 15px 30px 1px grey;
+    border-radius: 5px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+.folio-title {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.folio-desc {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.folio-overlay:hover {
+    opacity: 1;
+}
+
+.folio-overlay >* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.folio-overlay:hover >* {
+    transform: translateY(0);
+}
+
+.menulink {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.foliolink  {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 20px;
+}
+
+.empty {
+    box-shadow: none;
+}
+.empty:hover {
+    opacity: 0;
+    transform: none;
+    transition: transform 0s;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.socialmediaIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.feedbackForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+
+.disclaimer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    }
+.emailField {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.messageField {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sendButton {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    background-color: #264348;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+    .menulink {
+        font-size: 10px;
+    }
+
+    .hello {
+        color: #16282B;
+        font-family: Roboto, sans-serif;
+        margin-left: 0px;
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 0px;
+    align-items: center;
+}
+.folio-item  {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: fit-content;
+    margin-left: 25px;
+    }
+
+.empty {
+    display: none;
+}
+.header {
+    flex-direction: column;
+}
+.imgLondon {
+    width: 90%;
+    margin-left: 40px;
+}
+.aboutMe {
+    width: 85%;
+    margin-top: 0px;
+   margin-left: 40px;
+}
+ 
+}
+
+
