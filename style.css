@@ -79,8 +79,8 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    /* width: 30%; */
-    width: fit-content;
+    width: 30%;
+    /*width: fit-content;*/
   
 }
 
@@ -258,7 +258,6 @@ footer {
     margin-top: 0px;
    margin-left: 40px;
 }
- 
 }
 
 
