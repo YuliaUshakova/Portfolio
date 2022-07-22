@@ -27,6 +27,7 @@ body{
     margin-top: 200px;
     margin-left: auto;
     align-items: center;
+    overflow: hidden;
 }  
 
 nav {
