@@ -69,7 +69,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 150px;
+    margin-left: 65px;
     align-items: center;
 }
 
@@ -80,6 +80,7 @@ p {
     flex-wrap: wrap;
     position: relative;
     width: 30%;
+    margin: 10px;
     /*width: fit-content;*/
   
 }
@@ -151,14 +152,14 @@ h1{
     font-size: 20px;
 }
 
-.empty {
+/* .empty {
     box-shadow: none;
 }
 .empty:hover {
     opacity: 0;
     transform: none;
     transition: transform 0s;
-}
+} */
 
 footer {
     display: flex;
