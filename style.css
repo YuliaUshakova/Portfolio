@@ -1,19 +1,23 @@
 body{
     background-color: #A8B3B5;
- }
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
 .hello {
     color: #16282B;
     font-family: Roboto, sans-serif;
-    margin-left: 50px;
-    width: 50%;
-    padding: 10px;
     font-size: 20px;
 }
-
-.heading {
-    display: flex;
-    justify-content: center;
- }
 
 .imgLondon {
     margin-right: 50px;   
@@ -23,11 +27,11 @@ body{
 
 .header {
     display: flex;
-    width: 95%;
-    margin-top: 200px;
+    flex-direction: column;
+    margin-top: 100px;
     margin-left: auto;
     align-items: center;
-}  
+}   
 
 nav {
     background-color: #16282B;
@@ -64,8 +68,14 @@ p {
     border-radius: 50%;
 }
 
+.portfolio-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+}
+
 .portfolio-content {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,10 +89,9 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    width: 30%;
+    /* width: 30%; */
     margin: 10px;
-    /*width: fit-content;*/
-  
+    width: fit-content;
 }
 
 .folio-overlay {
@@ -152,15 +161,6 @@ h1{
     font-size: 20px;
 }
 
-/* .empty {
-    box-shadow: none;
-}
-.empty:hover {
-    opacity: 0;
-    transform: none;
-    transition: transform 0s;
-} */
-
 footer {
     display: flex;
     justify-content: center; 
@@ -224,6 +224,13 @@ footer {
         width: fit-content;
         padding: 10px;
         font-size: 15px;
+    }
+
+    .portfolio-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
     }
     
 .portfolio-content {
