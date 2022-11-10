@@ -52,9 +52,8 @@ nav {
     width: 70%;
     margin-top: 200px;
     margin-left: 200px;
-    /* justify-content: center; */
     align-items: center;
-   text-align: center;
+    text-align: center;
     border-radius: 10px;
     background-color: #264348;
     box-shadow: 0 15px 30px 1px grey;
@@ -265,9 +264,8 @@ footer {
 .aboutMe {
     width: 85%;
     margin-top: 0px;
-   margin-left: 38px;
+    margin-left: 38px;
 }
- 
 }
 
 @media all and (max-width: 300px) {
@@ -275,11 +273,17 @@ footer {
         font-size: 10px;
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+
     .hello {
         color: #16282B;
         font-family: Roboto, sans-serif;
         margin-left: 0px;
-        width: fit-content;
+        width: 95%;
         padding: 5px;
         font-size: 10px;
     }
@@ -310,14 +314,16 @@ footer {
 }
 .imgLondon {
     width: 90%;
-    margin-left: auto;
+    margin: auto;
 }
 .aboutMe {
-    width: 85%;
-    margin-top: 0px;
-   margin-left: auto;
-}
- 
+    padding: 5px;
+    width: auto;
+    }
+
+    .bio {
+        font-size: 10px;
+    } 
 }
 
 
