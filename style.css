@@ -2,27 +2,22 @@ body{
     background-color: #A8B3B5;
 }
 
-.site-content {
+.heading{
     display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
-.header {
-    display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .hello {
     color: #16282B;
     font-family: Roboto, sans-serif;
     font-size: 20px;
-}
+    }
 
 .imgLondon {
     margin-right: 50px;   
     border-radius: 10px;
     box-shadow: 0 15px 30px 1px grey;
+    flex: 1;
 } 
 
 .header {
@@ -44,6 +39,12 @@ nav {
     
 } 
 
+.positionAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutMe {
     padding: 25px;
     color: white;
@@ -52,7 +53,7 @@ nav {
     width: 70%;
     margin-top: 200px;
     margin-left: 200px;
-    align-items: center;
+    align-items: center; 
     text-align: center;
     border-radius: 10px;
     background-color: #264348;
@@ -88,7 +89,6 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
-    /* width: 30%; */
     margin: 10px;
     width: fit-content;
 }
@@ -114,7 +114,7 @@ p {
     width: 100%;
     box-shadow: 0 15px 30px 1px grey;
     border-radius: 5px;
-    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .folio-title {
@@ -163,7 +163,6 @@ h1{
 footer {
     display: flex;
     justify-content: center; 
-   
 }
 
 .socialmediaIcons {
@@ -256,34 +255,38 @@ footer {
 .header {
     flex-direction: column;
     overflow: hidden;
+    text-align: center;
 }
 .imgLondon {
     width: 90%;
-    margin-left: 40px;
 }
 .aboutMe {
     width: 85%;
     margin-top: 0px;
     margin-left: 38px;
 }
+h2 {
+    font-size: 35px;
+}
 }
 
 @media all and (max-width: 300px) {
     .menulink {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        font-size: 20px;
     } 
 
     .hello {
         color: #16282B;
         font-family: Roboto, sans-serif;
         margin-left: 0px;
-        width: 95%;
+        width: 100%;
         padding: 5px;
         font-size: 10px;
     }
@@ -292,7 +295,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     margin-left: auto;
     align-items: center;
 }
@@ -306,9 +309,6 @@ footer {
     margin-left: auto;
     }
 
-.empty {
-    display: none;
-}
 .header {
     flex-direction: column;
 }
@@ -318,13 +318,17 @@ footer {
 }
 .aboutMe {
     padding: 5px;
-    width: auto;
+    width: 95%;
+    font-size: 15px;
     }
-
+h2 {
+    font-size: 20px;
+}
     .bio {
         font-size: 10px;
     } 
-}
+} 
+
 
 
 
