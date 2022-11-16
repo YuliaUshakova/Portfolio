@@ -14,7 +14,7 @@ body{
     }
 
 .imgLondon {
-    margin-right: 50px;   
+    /* margin-right: 50px;    */
     border-radius: 10px;
     box-shadow: 0 15px 30px 1px grey;
     flex: 1;
@@ -263,7 +263,7 @@ footer {
 .aboutMe {
     width: 85%;
     margin-top: 0px;
-    margin-left: 38px;
+    margin-left: 10px;
 }
 h2 {
     font-size: 35px;
